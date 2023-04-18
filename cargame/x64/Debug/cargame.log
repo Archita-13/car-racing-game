@@ -1,0 +1,38 @@
+﻿  cargame.cpp
+C:\Users\archi\source\repos\cargame\cargame\cargame.cpp(34,50): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+C:\Users\archi\source\repos\cargame\cargame\cargame.cpp(34,50): warning C4302: 'type cast': truncation from 'void *' to 'int'
+C:\Users\archi\source\repos\cargame\cargame\cargame.cpp(35,48): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+C:\Users\archi\source\repos\cargame\cargame\cargame.cpp(35,48): warning C4302: 'type cast': truncation from 'void *' to 'int'
+C:\Users\archi\source\repos\cargame\cargame\cargame.cpp(36,43): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+C:\Users\archi\source\repos\cargame\cargame\cargame.cpp(36,43): warning C4302: 'type cast': truncation from 'void *' to 'int'
+C:\Users\archi\source\repos\cargame\cargame\cargame.cpp(141,46): warning C4312: 'type cast': conversion from 'const int' to 'void *' of greater size
+C:\Users\archi\source\repos\cargame\cargame\cargame.cpp(146,50): warning C4312: 'type cast': conversion from 'const int' to 'void *' of greater size
+C:\Users\archi\source\repos\cargame\cargame\cargame.cpp(158,50): warning C4312: 'type cast': conversion from 'const int' to 'void *' of greater size
+C:\Users\archi\source\repos\cargame\cargame\cargame.cpp(403,53): warning C4312: 'type cast': conversion from 'const int' to 'void *' of greater size
+C:\Users\archi\source\repos\cargame\cargame\cargame.cpp(407,57): warning C4312: 'type cast': conversion from 'const int' to 'void *' of greater size
+C:\Users\archi\source\repos\cargame\cargame\cargame.cpp(410,44): warning C4312: 'type cast': conversion from 'const int' to 'void *' of greater size
+C:\Users\archi\source\repos\cargame\cargame\cargame.cpp(412,55): warning C4312: 'type cast': conversion from 'const int' to 'void *' of greater size
+C:\Users\archi\source\repos\cargame\cargame\cargame.cpp(413,56): warning C4312: 'type cast': conversion from 'const int' to 'void *' of greater size
+C:\Users\archi\source\repos\cargame\cargame\cargame.cpp(415,49): warning C4312: 'type cast': conversion from 'const int' to 'void *' of greater size
+C:\Users\archi\source\repos\cargame\cargame\cargame.cpp(416,53): warning C4312: 'type cast': conversion from 'const int' to 'void *' of greater size
+C:\Users\archi\source\repos\cargame\cargame\cargame.cpp(418,53): warning C4312: 'type cast': conversion from 'const int' to 'void *' of greater size
+C:\Users\archi\source\repos\cargame\cargame\cargame.cpp(419,53): warning C4312: 'type cast': conversion from 'const int' to 'void *' of greater size
+C:\Users\archi\source\repos\cargame\cargame\cargame.cpp(420,54): warning C4312: 'type cast': conversion from 'const int' to 'void *' of greater size
+C:\Users\archi\source\repos\cargame\cargame\cargame.cpp(421,54): warning C4312: 'type cast': conversion from 'const int' to 'void *' of greater size
+C:\Users\archi\source\repos\cargame\cargame\cargame.cpp(423,53): warning C4312: 'type cast': conversion from 'const int' to 'void *' of greater size
+C:\Users\archi\source\repos\cargame\cargame\cargame.cpp(425,53): warning C4312: 'type cast': conversion from 'const int' to 'void *' of greater size
+cargame.obj : error LNK2019: unresolved external symbol glutInit referenced in function main
+cargame.obj : error LNK2019: unresolved external symbol glutInitDisplayMode referenced in function main
+cargame.obj : error LNK2019: unresolved external symbol glutInitWindowPosition referenced in function main
+cargame.obj : error LNK2019: unresolved external symbol glutInitWindowSize referenced in function main
+cargame.obj : error LNK2019: unresolved external symbol glutMainLoop referenced in function main
+cargame.obj : error LNK2019: unresolved external symbol glutCreateWindow referenced in function main
+cargame.obj : error LNK2019: unresolved external symbol glutPostRedisplay referenced in function "void __cdecl timer(int)" (?timer@@YAXH@Z)
+cargame.obj : error LNK2019: unresolved external symbol glutSwapBuffers referenced in function "void __cdecl display(void)" (?display@@YAXXZ)
+cargame.obj : error LNK2019: unresolved external symbol glutDisplayFunc referenced in function main
+cargame.obj : error LNK2019: unresolved external symbol glutKeyboardFunc referenced in function main
+cargame.obj : error LNK2019: unresolved external symbol glutTimerFunc referenced in function "void __cdecl timer(int)" (?timer@@YAXH@Z)
+cargame.obj : error LNK2019: unresolved external symbol glutSpecialFunc referenced in function main
+cargame.obj : error LNK2019: unresolved external symbol glutBitmapCharacter referenced in function "void __cdecl renderBitmapString(float,float,void *,char const *)" (?renderBitmapString@@YAXMMPEAXPEBD@Z)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\lib\x64\glut32.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\archi\source\repos\cargame\x64\Debug\cargame.exe : fatal error LNK1120: 13 unresolved externals
